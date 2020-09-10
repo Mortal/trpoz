@@ -4,7 +4,7 @@ import "./App.css";
 
 import "./App.css";
 
-const js = import("./lib/rust/pkg/hello_wasm");
+const js = import("./lib/rust/pkg/index");
 js.then(js => {
   js.greet("WebAssembly");
 });
